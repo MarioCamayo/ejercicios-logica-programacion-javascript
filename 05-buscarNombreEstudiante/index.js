@@ -6,7 +6,7 @@ function buscarEstudiante() {
     let estudiantes = ["Juan", "Ana", "Pedro", "Luis", "Maria", "Carlos", "Sofia", "Elena", "Hugo", "Diana"];
     let nombre = prompt("Introduce un nombre para buscar:");
 
-    if (estudiantes.includes(nombre).) {
+    if (estudiantes.includes(nombre)) {
         alert(`El nombre ${nombre} está en la lista.`);
     } else {
         alert(`El nombre ${nombre} NO está en la lista.`);
